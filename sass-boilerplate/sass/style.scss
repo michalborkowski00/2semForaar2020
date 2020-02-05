@@ -4,15 +4,25 @@
 /* selected colors for this project */
 $green: #1cc867;
 $white: #fff;
-
+$cta: #0000ff;
+$blue: #000063;
 /* nested syntax, how cool is that? */
 
 /* mixins */ 
-
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+.box { 
+    width: 99px;
+    height: 99px;
+    background-color: $blue;
+    @include transform(rotate(30deg)); }
 /* scss samples */
 body {
     background-color: $green;
-    color: #00ff00;
+    color: $cta;
 }
 
 /* nested syntax */

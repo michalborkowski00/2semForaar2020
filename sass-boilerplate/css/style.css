@@ -3,15 +3,25 @@
 /* selected colors for this project */
 /* nested syntax, how cool is that? */
 /* mixins */
+/* line 17, ../kraken/2semForaar2020/sass-boilerplate/sass/style.scss */
+.box {
+  width: 99px;
+  height: 99px;
+  background-color: #000063;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
 /* scss samples */
-/* line 13, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 23, ../kraken/2semForaar2020/sass-boilerplate/sass/style.scss */
 body {
   background-color: #1cc867;
-  color: #00ff00;
+  color: #0000ff;
 }
 
 /* nested syntax */
-/* line 20, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 30, ../kraken/2semForaar2020/sass-boilerplate/sass/style.scss */
 main p {
   color: #fff;
 }
